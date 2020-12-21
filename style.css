@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    text-align: center;
+}
+
+.content{
+    font-size: 1.4em;
+}
+
+#btnJoke{
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    margin: 20px;
+    background-color: rgba(255, 0, 0, .6);
+    font-family: 'Permanent Marker', cursive;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+#btnJoke:hover {
+    background-color: rgba(255, 0, 0, .8);
+}
+
